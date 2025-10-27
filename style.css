@@ -17,7 +17,7 @@ body {
     line-height: 1.6;
     color: var(--primary);
     background: var(--bg);
-    padding: 2rem;
+    padding: 0rem 2rem 0rem 2rem;
     max-width: 750px;
     margin: 0 auto;
 }
@@ -51,7 +51,7 @@ body {
     border-bottom: 1px solid var(--border);
     margin-bottom: 2rem;
     background: #fbfbfb;
-    margin-top: 1em !important;
+    margin-top: 0.2em !important;
     position: sticky;
     top: 0;
     background: var(--bg);
@@ -59,10 +59,14 @@ body {
     padding: 1rem 0;
     border: 1px solid var(--border);
     border-radius: 5px;
-
 }
 
-
+code {
+    background: #000;
+    color: #03df07;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
 
 
 .logo {
@@ -167,54 +171,29 @@ body {
     font-size: 1.1rem;
 }
 
-.stack-icon {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-}
-
 .stack-icons {
     width: 25px;
     height: auto;
 }
 
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.gallery-item {
-    border: 1px solid var(--border);
-    padding: 0.5rem;
-    background: white;
-    overflow: hidden;
-}
-
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 .signature {
     margin-top: 3rem;
     text-align: center;
-}
-
-.signature img {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    margin-bottom: 0.2em;
 }
 
 .signature-text {
     font-size: 1rem;
     color: var(--secondary);
     margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-icon {
+    width: 15%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
@@ -232,17 +211,7 @@ body {
         justify-content: center;
     }
 
-    .gallery {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    }
-
     .nav a:last-child {
         margin-top: -15px;
     }
-}
-
-
-.icons {
-    width: 15%;
-    height: auto;
 }
