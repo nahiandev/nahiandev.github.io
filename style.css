@@ -170,6 +170,7 @@ code {
 
 
 .tag-group {
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
