@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 const terminalEl = document.getElementById("terminal-title");
-const roles = ["scales", "converts"];
+const roles = ["scale", "convert", "sell"];
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
