@@ -229,6 +229,9 @@ body {
     .nav a:last-child {
         margin-top: -15px;
     }
+  .title {
+      text-align:center;
+  }
 }
 
 
