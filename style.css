@@ -229,8 +229,9 @@ body {
     .nav a:last-child {
         margin-top: -15px;
     }
-  .title {
-      text-align:center;
+  .v-box {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
   }
 }
 
