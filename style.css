@@ -147,6 +147,9 @@ code {
 
 .project {
     margin: 1rem 0;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 5px;
 }
 
 .project-title {
@@ -162,7 +165,25 @@ code {
 .project-meta {
     color: var(--secondary);
     font-size: 1.05rem;
-    margin-top: 0.55rem;
+    margin: 0.55rem 0rem;
+}
+
+
+.tag-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    /* handles both row and column spacing */
+    margin-bottom: 0.5rem;
+}
+
+.tag {
+    background: var(--primary);
+    color: var(--bg);
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 5px;
 }
 
 .stack-item {
