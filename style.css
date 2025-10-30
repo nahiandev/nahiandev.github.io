@@ -51,7 +51,7 @@ body {
     border-bottom: 1px solid var(--border);
     margin-bottom: 2rem;
     background: #fbfbfb;
-    margin-top: 0.2em !important;
+    margin-top: 0em !important;
     position: sticky;
     top: 0;
     background: var(--bg);
@@ -117,6 +117,8 @@ code {
     font-size: 0.9rem;
     font-weight: 600;
     border-radius: 5px;
+    /* font-family: monospace;
+    white-space: pre; */
     /* min-width: 155px !important; */
 }
 
@@ -181,7 +183,7 @@ code {
     text-align: center;
     border: 1px solid var(--border);
     border-radius: 5px;
-    margin-bottom: 0.2em;
+    margin-bottom: 0em;
 }
 
 .signature-text {
