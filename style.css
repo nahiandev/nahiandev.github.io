@@ -229,17 +229,7 @@ body {
     .nav a:last-child {
         margin-top: -15px;
     }
-  .v-box {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-  }
 }
-
-
-
-
-
-
 
 .stack-item {
     display: flex;
@@ -248,7 +238,6 @@ body {
     align-items: center;
     /* vertically center text with image */
     gap: 0.5rem;
-
 }
 
 .stack-icons {
