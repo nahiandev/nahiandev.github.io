@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibne Nahian - Web Developer</title>
     <link rel="shortcut icon" href="/static-files/code.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
@@ -32,38 +34,37 @@
             <h1 class="name">Ibne Nahian</h1>
             <span class="title">i build websites that <span id="terminal-title"></span></span>
 
-            <p class="bio">
-                I'm a freelance Web Developer, passionate about building great web experiences.
-            </p>
-            <p class="bio">
-                I love turning ideas into clean, user-friendly code.
-            </p>
-            <!-- <p class="bio">
-                My architecture background gives me a unique perspective on structure and design.
-            </p> -->
+
+
+            <div class="row box">
+                <div class="col-md-12">
+                    <p class="bio">
+                        I'm a freelance Web Developer, passionate about building great web experiences.
+                    </p>
+                    <p class="bio">
+                        I love turning ideas into clean, user-friendly code.
+                    </p>
+                </div>
+            </div>
         </section>
 
         <section class="section">
             <h2 class="section-title">previous projects _</h2>
+
+
             <div class="project">
                 <h3 class="project-title">
                     <a href="https://www.smartwaytostart.com/" target="_blank">Smart Way to Start</a>
                 </h3>
                 <p class="project-meta">Financial Parenting
-                        Website for one of my clients.</p>
-
-
+                    Website for one of my clients.</p>
                 <div class="tag-group">
                     <button class="tag">WordPress</button>
                     <button class="tag">php</button>
                     <button class="tag">Js</button>
                 </div>
-
-
-
-
-
             </div>
+
             <div class="project">
                 <h3 class="project-title">
                     <a href="https://gkexploration.com/golden-keys-3d-viewer/" target="_blank">Golden Keys Exploration
@@ -79,10 +80,11 @@
                 <h3 class="project-title">
                     <a href="https://marketplays.com/" target="_blank">MarketPlays</a>
                 </h3>
-                <p class="project-meta">A Crowd Investment Platform - I worked on the frontend. Particaularly I implemented the Dark Mode feature.</p>
-                 <div class="tag-group">
+                <p class="project-meta">A Crowd Investment Platform - I worked on the frontend. Particaularly I
+                    implemented the Dark Mode feature.</p>
+                <div class="tag-group">
                     <button class="tag">Angular</button>
-                    <button class="tag">TypeScript</button>
+                    <button class="tag">Ts</button>
                     <button class="tag">SCSS</button>
                     <button class="tag">Bootstrap</button>
                 </div>
@@ -92,116 +94,128 @@
                 <h3 class="project-title">
                     <a href="https://github.com/nahiandev/DotFetch" target="_blank">DotFetch</a>
                 </h3>
-                <p class="project-meta">A Command-line system information utility written in PowerShell. It's a NeoFetch alternative on
-                        Windows</p>
+                <p class="project-meta">A Command-line system information utility written in PowerShell. It's a NeoFetch
+                    alternative on
+                    Windows</p>
 
                 <div class="tag-group">
                     <button class="tag">PowerShell</button>
                     <button class="tag">batch</button>
                     <button class="tag">Windows</button>
-                   <button class="tag">Open Source</button>
-                   
+                    <button class="tag">Open Source</button>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <h2 class="section-title">tech stack _</h2>
+    <section class="row g-3">
+        <div class="col-md-12">
+             <h2 class="section-title">tech stack _</h2>
+        </div>
+            <div class="col-md-6">
+                
+                <div class="v-box"><h3 class="project-title">front end</h3>
+                    <div class="stack-item"> <img src="./static-files/angular.png" alt="angular" class="stack-icons">
+                        <p>Angular</p>
+                    </div>
+                    <div class="stack-item"> <img src="./static-files/Nuxt JS.png" alt="nuxtjs" class="stack-icons">
+                        <p>Nuxt.js</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"> 
+                <div class="v-box">
+                    <h3 class="project-title">back end</h3>
+                    <div class="stack-item"> <img src="./static-files/Nest.js.png" alt="nestjs" class="stack-icons">
+                        <p>Nest.js</p>
+                    </div>
+                    <div class="stack-item"> <img src="./static-files/node.svg" alt="nodejs" class="stack-icons">
+                        <p>Node.js</p>
+                    </div>
+                    <div class="stack-item"> <img src="./static-files/c-sharp.png" alt="dotnet" class="stack-icons">
+                        <p>.NET</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="v-box">
+                    <h3 class="project-title">cms</h3>
+                    <div class="stack-item"> <img src="./static-files/wordpress.png" alt="wordpress" class="stack-icons">
+                        <p>WordPress</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="v-box">
+                    <h3 class="project-title">programming languages</h3>
+                    <div class="stack-item"> <img src="./static-files/typescript.png" alt="typescript" class="stack-icons">
+                        <p>TypeScript</p>
+                    </div>
+                    <div class="stack-item"> <img src="./static-files/php.png" alt="php" class="stack-icons">
+                        <p>php</p>
+                    </div>
+                    <div class="stack-item"> <img src="./static-files/python.png" alt="python" class="stack-icons">
+                        <p>Python</p>
+                    </div>
+                    <div class="stack-item"><img src="./static-files/c-sharp.png" alt="csharp" class="stack-icons">
+                        <p>C#</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="v-box">
+                    <h3 class="project-title">website builders</h3>
+                    <div class="stack-item"> <img src="./static-files/kajabi.png" alt="kajabi" class="stack-icons">
+                        <p>Kajabi</p>
+                    </div>
+                    <div class="stack-item"> <img src="./static-files/framer.png" alt="framer" class="stack-icons">
+                        <p>Framer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="v-box">
+                    <h3 class="project-title">cloud</h3>
+                    <div class="stack-item"> <img src="./static-files/github.png" alt="github" class="stack-icons">
+                        <p>GitHub</p>
+                    </div>
+                    <div class="stack-item"> <img src="./static-files/Digital Ocean.png" alt="digitalocean" class="stack-icons">
+                        <p>DigitalOcean</p>
+                    </div>
+                </div>
+            </div>
+             
+        </section>
 
-            <div class="stack-item">
-                <img src="./static-files/wordpress.png" alt="wordpress" class="stack-icons">
-                <p>WordPress</p>
+        <section class="row section">
+            <div class="col-md-12">
+                <h2 class="section-title">when not coding _</h2>
             </div>
-            <div class="stack-item">
-                <img src="./static-files/php.png" alt="php" class="stack-icons">
-                <p>php</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/typescript.png" alt="js/ts" class="stack-icons">
-                <p>JS/TS</p>
-            </div>
-
-            <div class="stack-item">
-                <img src="./static-files/angular.png" alt="angular" class="stack-icons">
-                <p>Angular</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/Nuxt JS.png" alt="nuxtjs" class="stack-icons">
-                <p>Nuxt.js</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/node.svg" alt="nodejs" class="stack-icons">
-                <p>Node.js</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/c-sharp.png" alt="dotnet-csharp" class="stack-icons">
-                <p>.NET</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/python.png" alt="python" class="stack-icons">
-                <p>Python</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/git.png" alt="git" class="stack-icons">
-                <p>Git</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/github.png" alt="github" class="stack-icons">
-                <p>GitHub</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/Nest.js.png" alt="nestjs" class="stack-icons">
-                <p>Nest.js</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/Digital Ocean.png" alt="digitalocean" class="stack-icons">
-                <p>DigitalOcean</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/MySQL.png" alt="mysql" class="stack-icons">
-                <p>MySQL</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/Powershell.png" alt="powershell" class="stack-icons">
-                <p>PowerShell</p>
+            <div class="col-md-12 box">
+                <p class="bio">Music, Travelling, Natural Photoraphy mostly. And yes, I still love Tom and Jerry.</p>
             </div>
         </section>
 
-
-
-
-        <section class="section">
-            <h2 class="section-title">managed builders _</h2>
-            <div class="stack-item">
-                <img src="./static-files/kajabi.png" alt="kajabi" class="stack-icons">
-                <p>Kajabi</p>
-            </div>
-            <div class="stack-item">
-                <img src="./static-files/framer.png" alt="framer" class="stack-icons">
-                <p>Framer</p>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">when not coding _</h2>
-            <p class="bio">
-                Music, Travelling, Natural Photoraphy mostly. And yes, I still love Tom and Jerry.
-            </p>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">let’s build something _</h2>
-            <p class="bio">
+        <section class="section row">
+            <div class="col-md-12"><h2 class="section-title">let’s build something _</h2></div>
+            <div class="col-md-12 box">
+                <p class="bio">
                 Got an idea that needs execution — not just exploration? I specialize in turning urgency into
                 architecture. Reach out, and let’s make it real.
             </p>
+            </div>
+            
+            
         </section>
 
         <footer class="signature">
             <div class="signature-text">Coded with ❤️ by Ibne Nahian</div>
         </footer>
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
     <script src="script.js"></script>
 </body>
 

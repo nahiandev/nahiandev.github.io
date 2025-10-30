@@ -61,12 +61,7 @@ body {
     border-radius: 5px;
 }
 
-code {
-    background: #000;
-    color: #03df07;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-}
+
 
 
 .logo {
@@ -74,7 +69,7 @@ code {
     color: white;
     padding: 0.25rem 0.5rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.25rem;
     border-radius: 3px;
 }
 
@@ -117,9 +112,6 @@ code {
     font-size: 0.9rem;
     font-weight: 600;
     border-radius: 5px;
-    /* font-family: monospace;
-    white-space: pre; */
-    /* min-width: 155px !important; */
 }
 
 .bio {
@@ -138,18 +130,17 @@ code {
     position: relative;
 }
 
-/* .section-title::after {
-    content: '_';
-    position: absolute;
-    left: 5%;
-    margin-left: 0.25rem;
-} */
-
-.project {
+.project,
+.box,
+.section .col-md-6 {
     margin: 1rem 0;
     padding: 0.5rem 1.25rem;
     border: 1px solid var(--border);
     border-radius: 5px;
+}
+
+.box:hover {
+    background: rgb(248, 248, 248);
 }
 
 .project-title {
@@ -164,7 +155,7 @@ code {
 
 .project-meta {
     color: var(--secondary);
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     margin: 0.55rem 0rem;
 }
 
@@ -238,4 +229,41 @@ code {
     .nav a:last-child {
         margin-top: -15px;
     }
+}
+
+
+
+
+
+
+
+.stack-item {
+    display: flex;
+    flex-direction: row;
+    /* horizontal alignment */
+    align-items: center;
+    /* vertically center text with image */
+    gap: 0.5rem;
+
+}
+
+.stack-icons {
+    width: 25px;
+    height: auto;
+}
+
+.stack-item p {
+    margin: 0;
+}
+
+.v-box {
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 0.5rem 1.25rem;
+    background: var(--bg);
+    min-height: 12rem;
+}
+
+.v-box:hover {
+    background: rgb(248, 248, 248);
 }
