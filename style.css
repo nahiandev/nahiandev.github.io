@@ -263,9 +263,17 @@ body {
     min-height: 12rem;
 }
 
+.v-box-mod {
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 1.25rem;
+    background: var(--bg);
+}
+
 /* Styles applied only on screens wider than 1024px */
 @media (min-width: 1024px) {}
 
-.v-box:hover {
+.v-box:hover,
+.v-box-mod:hover {
     background: rgb(248, 248, 248);
 }
