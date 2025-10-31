@@ -137,6 +137,10 @@ body {
     border-radius: 5px;
 }
 
+.box {
+    margin: 1rem 1rem;
+}
+
 .box:hover {
     background: rgb(248, 248, 248);
 }
