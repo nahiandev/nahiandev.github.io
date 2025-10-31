@@ -253,6 +253,10 @@ body {
     .v-box {
         min-height: unset !important;
     }
+
+    .name .title {
+        text-align: center !important;
+    }
 }
 
 .stack-item {
