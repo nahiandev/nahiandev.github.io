@@ -94,7 +94,6 @@ body {
 
 .hero {
     margin-bottom: 2rem;
-    padding: 1rem 1rem;
 }
 
 .name {
@@ -120,9 +119,7 @@ body {
     font-size: 1.15rem;
 }
 
-.section {
-    margin: 2rem 0;
-}
+
 
 .section-title {
     font-size: 1.65rem;
