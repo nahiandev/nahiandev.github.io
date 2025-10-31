@@ -115,7 +115,7 @@ body {
 }
 
 .bio {
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     font-size: 1.15rem;
 }
 
@@ -266,7 +266,7 @@ body {
 .v-box-mod {
     border: 1px solid var(--border);
     border-radius: 5px;
-    padding: 1.25rem;
+
     background: var(--bg);
 }
 
