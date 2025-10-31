@@ -141,6 +141,10 @@ body {
     border-radius: 5px;
 }
 
+.project:hover {
+    background: #f8f8f8;
+}
+
 .box {
     margin: 1rem 1rem;
 }
@@ -270,7 +274,7 @@ body {
 .v-box {
     border: 1px solid var(--border);
     border-radius: 5px;
-    padding: 1.25rem;
+    /* padding: 1.25rem; */
     background: var(--bg);
     min-height: 12rem;
 }
