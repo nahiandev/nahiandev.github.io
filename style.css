@@ -124,15 +124,19 @@ body {
 .section-title {
     font-size: 1.65rem;
     font-weight: bold;
-    margin-bottom: 1rem;
     position: relative;
 }
 
-.project,
+
 .box,
 .section .col-md-6 {
     margin: 1rem 0;
     padding: 0.5rem 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+}
+
+.project {
     border: 1px solid var(--border);
     border-radius: 5px;
 }
@@ -153,6 +157,10 @@ body {
 .project-title a {
     text-decoration: none;
     color: var(--primary);
+}
+
+.project-title a span:hover {
+    text-decoration: underline;
 }
 
 .project-meta {
@@ -188,6 +196,12 @@ body {
 
 .stack-icons {
     width: 25px;
+    height: auto;
+}
+
+.link-icon {
+    margin-top: -0.5rem;
+    width: 20px;
     height: auto;
 }
 
