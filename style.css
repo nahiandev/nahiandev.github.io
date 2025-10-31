@@ -49,7 +49,7 @@ body {
     align-items: center;
     padding: 1rem 1rem !important;
     border-bottom: 1px solid var(--border);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background: #fbfbfb;
     margin-top: 0em !important;
     position: sticky;
@@ -229,7 +229,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        padding: 1rem 0 !important;
+        padding: 1rem;
     }
 
     .header {
