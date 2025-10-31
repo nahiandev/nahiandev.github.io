@@ -161,13 +161,11 @@ body {
     margin: 0.55rem 0rem;
 }
 
-
 .tag-group {
     margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
-    /* handles both row and column spacing */
     margin-bottom: 0.5rem;
 }
 
@@ -213,6 +211,8 @@ body {
     height: auto;
 }
 
+@media (min-width: 1024px) {}
+
 @media (max-width: 768px) {
     body {
         padding: 1rem;
@@ -240,9 +240,7 @@ body {
 .stack-item {
     display: flex;
     flex-direction: row;
-    /* horizontal alignment */
     align-items: center;
-    /* vertically center text with image */
     gap: 0.5rem;
 }
 
@@ -266,12 +264,8 @@ body {
 .v-box-mod {
     border: 1px solid var(--border);
     border-radius: 5px;
-
     background: var(--bg);
 }
-
-/* Styles applied only on screens wider than 1024px */
-@media (min-width: 1024px) {}
 
 .v-box:hover,
 .v-box-mod:hover {
