@@ -228,10 +228,11 @@ body {
 
     .nav a:last-child {
         margin-top: -15px;
-    } 
-   .v-box {
-       min-height: unset !important;
-   }
+    }
+
+    .v-box {
+        min-height: unset !important;
+    }
 }
 
 .stack-item {
@@ -255,15 +256,13 @@ body {
 .v-box {
     border: 1px solid var(--border);
     border-radius: 5px;
-    padding: 0.5rem 1.25rem;
+    padding: 1.25rem;
     background: var(--bg);
     min-height: 12rem;
 }
 
 /* Styles applied only on screens wider than 1024px */
-@media (min-width: 1024px) {
-    
-}
+@media (min-width: 1024px) {}
 
 .v-box:hover {
     background: rgb(248, 248, 248);
